@@ -1,0 +1,74 @@
+.hero {
+  background-image: url("img/food3.jpeg");
+  background-size: cover;
+  padding: 230px 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+.centered-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.centered-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+.menu .card {
+  margin-bottom: 30px;
+}
+.btn .btn-primary {
+  display: flex;
+  text-align: center;
+}
+
+.menu .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.about {
+  padding: 100px 0;
+}
+
+.contact {
+  padding: 100px 0;
+}
+
+.footer {
+  background-color: #333;
+  color: burlywood;
+  padding: 20px 5;
+}
+
+.footer ul.list-inline li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer ul.list-inline li a {
+  color: blue;
+  font-size: 24px;
+}
+
+.footer ul.list-inline li a:hover {
+  color: #aaa;
+}
